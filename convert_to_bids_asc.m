@@ -21,7 +21,7 @@ cfg.dataset_description.ReferencesAndLinks  = 'n/a';
 cfg.dataset_description.DatasetDOI          = 'n/a';
 
 cfg.method    = 'convert'; % the eyelink-specific format is not supported, convert it to plain TSV
-cfg.dataset   = './original/ashcal.asc';
+cfg.dataset   = './data/fieldtrip_download_server/bids_eyetracker/eyelink_short/original/ashcal.asc';
 cfg.bidsroot  = './bids';  % write to the working directory
 cfg.datatype  = 'eyetracker';
 cfg.task      = 'calibration';
